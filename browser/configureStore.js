@@ -3,9 +3,9 @@ import { routerMiddleware } from 'react-router-redux'
 import thunk from 'redux-thunk'
 import promiseMiddleware from 'redux-promise'
 
-import ducks from 'ducks'
-
 export default function configureStore (initialState = {}, history) {
+  const ducks = require('ducks')
+
   let middleware = applyMiddleware(
     thunk,
     promiseMiddleware,
