@@ -35,6 +35,12 @@ basenji init
 npm start
 ```
 
+## Testing your application
+
+```bash
+npm test
+```
+
 ## Build your applications
 
 ```bash

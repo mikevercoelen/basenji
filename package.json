@@ -1,6 +1,6 @@
 {
   "name": "basenji",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Opinionated React/Redux web framework",
   "preferGlobal": true,
   "bin": {
