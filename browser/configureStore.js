@@ -3,7 +3,7 @@ import { routerMiddleware } from 'react-router-redux'
 import thunk from 'redux-thunk'
 import promiseMiddleware from 'redux-promise'
 
-import ducks from '../ducks'
+import ducks from 'ducks'
 
 export default function configureStore (initialState = {}, history) {
   let middleware = applyMiddleware(
@@ -22,8 +22,8 @@ export default function configureStore (initialState = {}, history) {
 
   /* @if isDevelopment=true */
   if (module.hot) {
-    module.hot.accept('../ducks', () => {
-      const nextRootReducer = require('../ducks').default
+    module.hot.accept('ducks', () => {
+      const nextRootReducer = require('ducks').default
       store.replaceReducer(nextRootReducer)
     })
   }
