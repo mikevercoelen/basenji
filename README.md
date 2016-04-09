@@ -34,3 +34,9 @@ basenji init
 ```bash
 npm start
 ```
+
+## Build your applications
+
+```bash
+npm run build
+```
