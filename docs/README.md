@@ -2,10 +2,15 @@
 
 ## The problem
 
-Setting up a solid boilerplate for your application sucks.
+Setting up a solid boilerplate for your React / Redux application sucks.
 
 Basenji solves this problem.
 
 ## Motivation
 
-I have researched most boilerplates, starter kits and webpack configurations around in the last few months. Basenji is the result of this deep research. I have extracted all cool stuff from these projects and created a solid framework.
+The last 6 months I have deeply researched [most boilerplates, starter kits and webpack configurations](https://github.com/xgrommx/awesome-redux). Basenji is the result of this research.
+
+## Why use Basenji?
+
+* You have NO boilerplate stuff anymore, no webpack stuff, no nothing, just your application code.
+* Basenji uses optimization techniques to create the best possible webpack configuration with fast builds and rebuilds.
