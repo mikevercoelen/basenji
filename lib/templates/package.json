@@ -1,13 +1,19 @@
 {
   "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "{{ description }}",
+  {{#if private }}
+  "private": true,
+  {{/if}}
+  "license": "{{ license }}",
+  "author": "{{{ author }}}",
+  "description": "{{{ description }}}",
   "scripts": {
     "start": "basenji run start",
     "test": "basenji run test",
     "build": "basenji run build",
     "build-server": "basenji run build-server"
   },
+  {{{ repo }}}
   "devDependencies": {
     {{{ devDependencies }}}
   }
