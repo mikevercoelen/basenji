@@ -5,7 +5,8 @@
   "scripts": {
     "start": "basenji run start",
     "test": "basenji run test",
-    "build": "basenji run build"
+    "build": "basenji run build",
+    "build-server": "basenji run build-server"
   },
   "devDependencies": {
     {{{ devDependencies }}}

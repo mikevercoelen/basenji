@@ -46,3 +46,9 @@ npm test
 ```bash
 npm run build
 ```
+
+## Build your applications and run server (so you can check stuff in production)
+
+```bash
+npm run build-server
+```
