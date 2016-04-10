@@ -1,12 +1,15 @@
 {
   "name": "basenji",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Opinionated React/Redux web framework",
   "preferGlobal": true,
   "bin": {
     "basenji": "./bin/index.js",
     "basenji-run": "./bin/run.js",
     "basenji-init": "./bin/init.js"
+  },
+  "scripts": {
+    "prepublish": "gulp docs"
   },
   "keywords": [
     "basenji",
@@ -110,5 +113,11 @@
     "webpack": "^1.12.14",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0"
+  },
+  "devDependencies": {
+    "gitbook": "^2.6.7",
+    "gitbook-plugin-prism": "^1.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "q": "^1.4.1"
   }
 }
