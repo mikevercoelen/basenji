@@ -1,6 +1,6 @@
 {
   "name": "basenji",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Opinionated React/Redux web framework",
   "preferGlobal": true,
   "bin": {
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/tomgrooffer/basenji/issues"
   },
-  "homepage": "https://github.com/tomgrooffer/basenji#readme",
+  "homepage": "http://tomgrooffer.github.io/basenji/",
   "dependencies": {
     "babel-core": "^6.7.4",
     "babel-eslint": "^6.0.2",
