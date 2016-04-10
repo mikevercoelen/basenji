@@ -1,21 +1,23 @@
-# Basenji
+# [Basenji](http://tomgrooffer.github.io/basenji/)
 
-  Opinionated Modern Web Application Framework using React & Redux
+Basenji is a simple framework for building modern Javascript apps using Redux, React and ES6.
 
 ## The problem
 
-  Settings up React, Redux projects is a problem. You have to deal with standards, webpack, eslint, babel etc.
+Settings up React, Redux projects is a problem. You have to deal with standards, webpack, eslint, babel etc.
 
-  Basenji simplifies this and sets a standard. Build modern web applications by using a high quality framework and structure based on research of boilerplates, starter kits and in-production webapps.
+Basenji simplifies this and sets a standard. Build modern web applications by using a high quality framework and structure based on research of boilerplates, starter kits and in-production webapps.
 
 ## Features
 
-  * Robust framework (used in production)
-  * ES6 Babel (stage-0 / es2015 / react)
-  * Standard coding config
-  * React and Redux
-  * Use SCSS, PostCSS, CSS modules
-  * High quality webpack build / development flow
+* No boilerplate, only your applications code
+* Live reloading
+* CSS modules, SCSS, PostCSS, Autoprefixing
+* ES6, React, Redux
+
+## Documentation
+
+[Basenji documentation](http://tomgrooffer.github.io/basenji/)
 
 ## Installation
 

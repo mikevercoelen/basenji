@@ -1,6 +1,6 @@
 {
   "name": "basenji",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Opinionated React/Redux web framework",
   "preferGlobal": true,
   "bin": {
@@ -24,7 +24,7 @@
     "url": "git+https://github.com/tomgrooffer/basenji.git"
   },
   "author": "Mike Vercoelen <mike.vercoelen@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tomgrooffer/basenji/issues"
   },
