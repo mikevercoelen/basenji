@@ -2,6 +2,8 @@
 
 Basenji is a simple framework for building modern Javascript apps using Redux, React and ES6.
 
+[Basenji documentation](http://tomgrooffer.github.io/basenji/)
+
 ## The problem
 
 Settings up React, Redux projects is a problem. You have to deal with standards, webpack, eslint, babel etc.
