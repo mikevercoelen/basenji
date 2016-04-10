@@ -7,7 +7,7 @@ import { Provider } from 'react-redux'
 import configureStore from './configureStore'
 
 const browserHistory = useRouterHistory(createBrowserHistory)({
-  basename: ''
+  basename: __BASENAME__
 })
 
 export default function boot (configureRoutes) {

@@ -12,22 +12,22 @@ export default function configureStore (initialState = {}, history) {
     routerMiddleware(history)
   )
 
-  /* @if isDevelopment=true */
-  if (window.devToolsExtension) {
-    middleware = compose(middleware, window.devToolsExtension())
+  if (__DEBUG__) {
+    if (window.devToolsExtension) {
+      middleware = compose(middleware, window.devToolsExtension())
+    }
   }
-  /* @endif */
 
   const store = middleware(createStore)(ducks, initialState)
 
-  /* @if isDevelopment=true */
-  if (module.hot) {
-    module.hot.accept('ducks', () => {
-      const nextRootReducer = require('ducks').default
-      store.replaceReducer(nextRootReducer)
-    })
+  if (__DEV__) {
+    if (module.hot) {
+      module.hot.accept('ducks', () => {
+        const nextRootReducer = require('ducks').default
+        store.replaceReducer(nextRootReducer)
+      })
+    }
   }
-  /* @endif */
 
   return store
 }
