@@ -1,3 +1,3 @@
-# Basenji
+![Logo](/images/logo.png)
 
-hello.
+## The problem

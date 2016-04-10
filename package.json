@@ -9,7 +9,8 @@
     "basenji-init": "./bin/init.js"
   },
   "scripts": {
-    "prepublish": "gulp docs"
+    "prepublish": "gulp docs",
+    "docs": "gulp docs:dev"
   },
   "keywords": [
     "basenji",
@@ -118,6 +119,7 @@
     "gitbook": "^2.6.7",
     "gitbook-plugin-prism": "^1.0.0",
     "gulp-gh-pages": "^0.5.4",
+    "gulp-watch": "^4.3.5",
     "q": "^1.4.1"
   }
 }
