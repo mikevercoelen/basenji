@@ -11,7 +11,8 @@
     "start": "basenji run start",
     "test": "basenji run test",
     "build": "basenji run build",
-    "build-server": "basenji run build-server"
+    "build-server": "basenji run build-server",
+    "lint": "eslint ."
   },
   {{{ repo }}}
   "devDependencies": {
