@@ -3,14 +3,19 @@ import { routerMiddleware } from 'react-router-redux'
 import thunk from 'redux-thunk'
 import promiseMiddleware from 'redux-promise'
 
-export default function configureStore (initialState = {}, history) {
+export default function configureStore (initialState = {}, history, options) {
   const ducks = require('ducks')
 
-  let middleware = applyMiddleware(
+  const customMiddleware = options.middleware || []
+
+  let realMiddleware = [
     thunk,
     promiseMiddleware,
-    routerMiddleware(history)
-  )
+    routerMiddleware(history),
+    ...customMiddleware
+  ]
+
+  let middleware = applyMiddleware(...realMiddleware)
 
   if (__DEBUG__) {
     if (window.devToolsExtension) {

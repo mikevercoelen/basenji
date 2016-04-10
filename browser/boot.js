@@ -10,8 +10,8 @@ const browserHistory = useRouterHistory(createBrowserHistory)({
   basename: __BASENAME__
 })
 
-export default function boot (configureRoutes) {
-  const store = configureStore({}, browserHistory)
+export default function boot (configureRoutes, options = {}) {
+  const store = configureStore({}, browserHistory, options)
 
   const history = syncHistoryWithStore(browserHistory, store, {
     selectLocationState: (state) => state.router
