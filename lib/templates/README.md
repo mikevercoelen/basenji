@@ -13,14 +13,14 @@ npm install
 npm start
 ```
 
-## Dist
+## Build
 
 ```shell
-npm run dist
+npm run build
 ```
 
-## Dist server
+## Build server
 
 ```shell
-npm run dist-server
+npm run build-server
 ```
