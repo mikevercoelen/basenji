@@ -1,4 +1,5 @@
 # Table of Contents
 
-* [Introduction](introduction/README.md)
-  * [Motivation](introduction/Motivation.md)
+* [Getting started](getting-started/README.md)
+  * [Installation](getting-started/Installation.md)
+  * [Create a new Project](getting-started/CreateProject.md)

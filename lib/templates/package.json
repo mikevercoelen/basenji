@@ -17,5 +17,8 @@
   {{{ repo }}}
   "devDependencies": {
     {{{ devDependencies }}}
+  },
+  "dependencies": {
+    {{{ dependencies }}}
   }
 }
